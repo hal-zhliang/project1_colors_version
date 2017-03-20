@@ -1,5 +1,5 @@
 int a=250;
-
+int b=500;
 void setup(){ 
   size(500,500);  
 }
@@ -12,6 +12,6 @@ void draw(){
   background(0,0,255);
   if(mouseX >= a) if(mouseY <= a)//upright
   background(100,100,100);
-  line(a,0,a,500);
-  line(0,a,500,a);
+  line(a,0,a,b);
+  line(0,a,b,a);
 }
